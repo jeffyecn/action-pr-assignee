@@ -11,6 +11,7 @@ and have `push` permission in the repository.
 
 [github actions]: https://help.github.com/en/actions "GitHub Actions Documentation"
 
+
 ## Usage
 
 You can use it on a repository through [GitHub Actions][]:
