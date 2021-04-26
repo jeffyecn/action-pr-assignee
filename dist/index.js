@@ -3237,7 +3237,7 @@ function assignPullRequest({ gh, context }) {
             assignees
         });
         const status = response.headers.status;
-        core.debug(`${JSON.stringify(response)}`);
+        core.error(`${JSON.stringify(response)}`);
         core.debug(`Assigning #${pull_number} to '${assignees[0]}' returned '${status}'.`);
         return status.startsWith('201');
     });
